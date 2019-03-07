@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(180, 180, 180);
+}
+
+div{
+    padding: 3em;
+}
+
+input{
+    width: 15em;
+    border-color: black;
+    margin-top: 3px;
+    color: black;
+}
+
+.sumbit{
+    width: 7em;
+    color: white;
+    background-color: black;
+    border: 0px;
+}
+
+input:focus-within, input:hover, input:focus{
+    background-color: chartreuse;
+    border-color: green;
+}
